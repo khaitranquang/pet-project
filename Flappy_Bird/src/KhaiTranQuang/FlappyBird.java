@@ -89,6 +89,7 @@ public class FlappyBird implements ActionListener,KeyListener{
 					toRemove.add(r);
 				}
 				if(r.contains(bird.x,bird.y)){
+				//if(r.contains(bird.x) || r.contains(bird.y)){
 					JOptionPane.showMessageDialog(frame, "You lose!\n"+"Your score is "+time+".");
 					game=false;
 				}

@@ -35,7 +35,7 @@ public class Bird {
 	}
 	
 	public void jump(){
-		vy=-12;1
+		vy=-12;
 	}
 	public void reset(){
 		x=640/2;
